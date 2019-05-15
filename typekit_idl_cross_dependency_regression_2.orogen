@@ -1,0 +1,6 @@
+name 'typekit_idl_cross_dependency_regression_2'
+
+import_types_from 'typekit_idl_cross_dependency_regression_1'
+import_types_from 'typekit_idl_cross_dependency_regression_2Types.hpp'
+
+typekit.export_types 'typekit_idl_cross_dependency_regression_2/EndStruct'
